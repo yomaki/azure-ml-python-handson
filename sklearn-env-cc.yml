@@ -1,0 +1,11 @@
+name: sklearn-env
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - scikit-learn
+    - azureml-defaults
